@@ -21,6 +21,9 @@ php/SpinResults.php
 - With valid inputs 
   - outputs the JSON response with {PlayerID, Name, Credits, LifeTimeSpins, LifeTimeAverageReturns} 
 
+Sample Output : 
+JSON Response : {"PlayerID":"213145","Name":"Player 1","Credits":7334,"LifeTimeSpins":329,"LifeTimeAverageReturns":22.29179331307}
+
 player.json & player.pdf
 
 - has the 'player' table schema and sample inputs
