@@ -1,0 +1,9 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'testdb'
+// testdb.player
+
+[{"PlayerID":"213145","Name":"Player 1","Credits":"7334","LifetimeSpins":"329","SaltValue":"342324"}, {"PlayerID":"234673","Name":"Player 2","Credits":"256","LifetimeSpins":"327","SaltValue":"655234"}, {"PlayerID":"322354","Name":"Player 3","Credits":"434","LifetimeSpins":"232","SaltValue":"984435"}, {"PlayerID":"324223","Name":"Player 4","Credits":"767","LifetimeSpins":"577","SaltValue":"454545"}, {"PlayerID":"356223","Name":"Player 5","Credits":"234","LifetimeSpins":"677","SaltValue":"234324"}]
