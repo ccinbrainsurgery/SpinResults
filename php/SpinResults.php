@@ -81,7 +81,7 @@ function validate_player($data){
 		// Validate credentials
 		$credentialsValid = true;
 		if(!hashcheck($data["SaltValue"], $dbSaltValue)){
-			echo "credentials invalid";
+			echo "PlayerID or credentials invalid";
 			$credentialsValid = false;
 		}
 		
