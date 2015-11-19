@@ -1,5 +1,5 @@
 # SpinResults
-Spin Results End point
+Slot Machine Spin Results is our server end point that updates all player data and features when a spin is completed on the client.
 
 php/UserInput.php
 
