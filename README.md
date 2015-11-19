@@ -14,3 +14,6 @@ php/SpinResults.php
 - If valid, updates the 'player' table with newly calculated information
 - Creates and sends a JSON response 
 
+player.json & player.pdf
+
+- has the 'player' table schema and sample inputs
