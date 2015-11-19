@@ -13,6 +13,13 @@ php/SpinResults.php
 - Validates player data (hash, coinsBet and coinsWon ) using PlayerID obtained from 'player' table in local MySQL DB (testdb)
 - If valid, updates the 'player' table with newly calculated information
 - Creates and sends a JSON response 
+- This file has been tested for invalid inputs for all fields
+  - PlayerID - outputs PlayerID or credentials invalid
+  - Salt Value - outputs PlayerID or credentials invalid
+  - CoinsBet or CoinsWon - outputs Credit error
+
+- With valid inputs 
+  - outputs the JSON response with {PlayerID, Name, Credits, LifeTimeSpins, LifeTimeAverageReturns} 
 
 player.json & player.pdf
 
